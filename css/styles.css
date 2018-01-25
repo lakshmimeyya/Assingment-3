@@ -1,0 +1,56 @@
+/* Input
+font is sans-serif
+colors: #b22222, #ddd, and #fff. */
+
+/*General Styles  */
+* {
+	box-sizing: border-box;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1000px;
+}
+h2,th,td{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin-top: 100px;
+}
+
+h2{
+    font weight:400;
+}
+th,td{
+    font-size: 24px;
+}
+th{
+   text-align: center;
+}
+.table{
+    overflow:hidden;
+    margin-bottom: 0;
+}
+.align-left{
+    text-align: left;
+}
+.box-shadow {
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    /* box-shadow: 2px -1px 20px #888888; */
+    /*  inset offset-x offset-y blur color*/
+    /* box-shadow: 0px 2px #ddd; */
+    box-shadow: 9px 15px 20px -10px #ddd;
+
+}
+
+/* Column Styles */
+.col-sm-1 {
+    background: #ddd;
+    width: 33.333333333333336%;
+}
+.col-sm-2,
+.col-sm-3 {
+    text-align: right;
+    width: 33.333333333333336%;
+}
